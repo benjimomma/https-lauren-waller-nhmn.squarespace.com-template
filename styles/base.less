@@ -16,7 +16,7 @@
 body {
   // cache
   background-color: @bgColor;
-  color: #000;
+  color: @textColor;
 
   a {
     color: inherit;
@@ -38,7 +38,7 @@ body {
     border-bottom: 1px solid @linkColor;
 
     &:hover {
-      border-color: #000;
+      border-color: @textColor;
     }
   }
 
@@ -72,7 +72,7 @@ body {
   a:focus,
   a:hover,
   a:active {
-    color: #000;
+    color: @textColor;
   }
 
   h1 a,
@@ -343,7 +343,7 @@ blockquote {
 body,
 // Blog
 .comment-count {
-  color: #000;
+  color: @textColor;
 }
 // General
 body,
@@ -1443,7 +1443,7 @@ body:not(.view-list) .site-page {
   }
 
   &:hover {
-    color: #000;
+    color: @textColor;
   }
 }
 
