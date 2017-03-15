@@ -5,7 +5,6 @@
     {.if template.mobileStylesEnabled}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {.end}
-    {squarespace-headers}
   <script>
     (function(){
       var touchTest = 'ontouchstart' in window || navigator.msMaxTouchPoints;
@@ -28,7 +27,7 @@
    
 
     <squarespace:script src="site-bundle.js" combo="false" />
-    {squarespace-footers}
+
 
   </body>
 </html>
