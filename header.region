@@ -97,9 +97,7 @@
               </div><!--
                {.if website.socialAccounts}
                {.section website}
-                --><nav class="header-special-social sqs-template-social-icons sqs-svg-icon--list" data-content-field="connected-accounts">
-                  {@|apply sqs-social-links}
-                </nav><!--
+                --><!--
                {.end}
                {.end}
                --><a href="/search" rel="search" class="header-search">
