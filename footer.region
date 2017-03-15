@@ -19,13 +19,16 @@
       <footer id="footer" class="site-footer responsive-margin--top responsive-padding--left responsive-padding--right responsive-padding--top responsive-padding--bottom" role="contentinfo">
         <!-- site wide footer via open block field -->
         <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
+        <img src= "img/facebook-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
+        <img src= "img/instagram-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
+        <img src= "img/twitter-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
+                  
         
       </footer>
 
    
 
     <squarespace:script src="site-bundle.js" combo="false" />
-    {squarespace-footers}
 
   </body>
 </html>
