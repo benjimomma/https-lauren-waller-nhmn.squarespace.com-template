@@ -18,9 +18,9 @@
       <footer id="footer" class="site-footer responsive-margin--top responsive-padding--left responsive-padding--right responsive-padding--top responsive-padding--bottom" role="contentinfo">
         <!-- site wide footer via open block field -->
         <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
-        <img src= "img/facebook-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
-        <img src= "img/instagram-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
-        <img src= "img/twitter-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
+        <img src= "https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58c9f8da9f74567f6f53b1e2/1489631450893/facebook-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
+        <img src= "https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58c9f8d6bebafbce64ce8e80/1489631446250/instagram-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
+        <img src= "https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58c9f8e1c534a544cd3bfdca/1489631457889/twitter-bball-icon.png" class="footer-social-icons" data-content-field="connected-accounts">
                   
         
       </footer>
