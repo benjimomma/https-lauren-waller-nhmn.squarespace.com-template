@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="touch-styles">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {.if template.mobileStylesEnabled}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {.end}
+    {squarespace-headers}
+  <script>
+    (function(){
+      var touchTest = 'ontouchstart' in window || navigator.msMaxTouchPoints;
+      if (!touchTest) {
+        document.documentElement.className = document.documentElement.className.replace(/touch\-styles/g, '');
+      }
+    })();</script>
+  </head>
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}" sqs-controller="SyncHeader, AddScrollingClass, HeaderScroll, SearchToggle, BodyMinHeight">
+    <div class="nav-close-overlay">
+
+    </div>
+    <div id="site" class="site-container clearfix">
+
+      <div class="sqs-announcement-bar-dropzone header-announcement-wrapper responsive-padding--left responsive-padding--right" id="headerAnnouncementWrapper">
+        <header id="header" class="site-header loading" role="banner">
+          <a class="nav-toggle-label flex-item" id="navToggle" sqs-controller="NavToggle">
+            <svg class="Icon Icon--hamburger nav-toggle-label-icon" viewBox="0 0 26 18">
+              <use xlink:href="/assets/ui-icons.svg#hamburger-icon--even"></use>
+            </svg>
+          </a>
+
+          <div class="logo-wrapper flex-item">
+          {.section website}
+            <!-- if logo or site title with site tagline -->
+            {.section logoImageUrl}
+              <div class="logo-image branding" data-content-field="site-title">
+                <a href="/"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+                {.if website.siteTagLine}<div class="site-tagline-logo">{siteTagLine}</div>{.end}
+              </div>
+            {.or}
+              <div class="site-title branding" data-content-field="site-title"><a href="/"><span class="site-title-text">{siteTitle}</span>{.section siteTagLine} <span class="site-tagline">{@}</span>{.end}</a></div>
+            {.end}
+          {.end}
+          </div>
+
+      
+
+      
+
+    <squarespace:script src="site-bundle.js" combo="false" />
+    
+
+  </body>
+</html>
