@@ -18,7 +18,7 @@
       <main id="page" class="site-page loading responsive-padding--left responsive-padding--right site-page--{collection.typeName}{.equal? collection.typeName "page"}{.or}-{.section item}item{.or}list{.end}{.end}" role="main" data-content-field="main-content" sqs-controller="FadeInContent">
 
         <!-- render page main content -->
-        
+        {squarespace.main-content}
 
       </main>
 
