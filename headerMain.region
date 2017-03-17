@@ -16,13 +16,7 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}" sqs-controller="SyncHeader, AddScrollingClass, HeaderScroll, SearchToggle, BodyMinHeight">
     
-    <div id="sideTrayWrapper" class="sidetray-wrapper">
-      <div class="main-nav-wrapper responsive-padding--top responsive-padding--bottom" sqs-controller="NavOverflow">
-        <div class="nav-blocks-wrapper">
-          <squarespace:navigation navigationId="mainNav" template="navigation" />
-          <squarespace:block-field id="navBlocks" columns="1" label="Nav Blocks" />
-        </div>
-      </div><!--
+    <!--
       --><div class="sidetray-blocks responsive-padding--top responsive-padding--bottom" sqs-controller="SidetrayBlocksOverflow">
         <div class="sidetray-blocks-wrapper">
           <squarespace:block-field id="sideTrayBlocks" columns="1" label="Sidetray Blocks" />
