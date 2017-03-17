@@ -1,0 +1,14 @@
+
+/***********FOOTER SOCIAL ICONS ********/
+
+
+.footer-social-icons{
+  float:right;
+  height:20px;
+  padding-left:2%;
+}
+
+.footer-social-icons:hover{
+  filter:grayscale(100%);
+  cursor:pointer;
+}
