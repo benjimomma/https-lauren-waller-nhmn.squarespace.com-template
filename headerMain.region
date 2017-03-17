@@ -17,12 +17,7 @@
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}" sqs-controller="SyncHeader, AddScrollingClass, HeaderScroll, SearchToggle, BodyMinHeight">
     
     <!--
-      --><div class="sidetray-blocks responsive-padding--top responsive-padding--bottom" sqs-controller="SidetrayBlocksOverflow">
-        <div class="sidetray-blocks-wrapper">
-          <squarespace:block-field id="sideTrayBlocks" columns="1" label="Sidetray Blocks" />
-        </div>
-      </div>
-    </div>
+      -->
 
     <form class="header-search-form" id="headerSearch" action="/search" method="get">
       <input class="header-search-form-input" name="q" placeholder="Search" type="text" spellcheck="false" value="" autocomplete="off">
