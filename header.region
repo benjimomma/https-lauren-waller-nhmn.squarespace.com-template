@@ -127,7 +127,7 @@
       
 
     <squarespace:script src="site-bundle.js" combo="false" />
-    {squarespace-footers}
+    
 
   </body>
 </html>
