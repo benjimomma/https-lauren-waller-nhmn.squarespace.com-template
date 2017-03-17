@@ -279,16 +279,18 @@ nav.main-navigation a {
   }
 }
 
-.footer-social-icons{
-  float:right;
-  height:20px;
-  padding-left:2%;
-}
+.footer-nav {
+  text-align: center;
 
-.footer-social-icons:hover{
-  filter:grayscale(100%);
-  cursor:pointer;
-}
+  .main-navigation {
+    font-size: @footerNavFontSize;
+    margin-top: @paddingSmall;
+  }
+
+  .main-navigation > div {
+    display: inline-block;
+    margin: 0 .25em 0;
+  }
 
   @media screen and (max-width: 640px) {
 
