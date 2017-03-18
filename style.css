@@ -16,5 +16,10 @@
 /***********MEDIA QUERIES ********/
 
 @media screen and (min-width: 768px){
-	
+	/**** LOGO SIZE****/
+
+	.logo-image img{
+		width:auto;
+		height:200px;
+	}
 }
