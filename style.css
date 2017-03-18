@@ -19,7 +19,6 @@
 	/**** LOGO SIZE****/
 
 	.logo-image img{
-		width:auto;
-		height:200px;
+		max-height:150px;
 	}
 }
