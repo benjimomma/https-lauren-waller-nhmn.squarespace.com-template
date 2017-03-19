@@ -23,9 +23,9 @@
 	}
 }
 /**** changing logos****/
-   /*.desktop-logo{
+   .desktop-logo{
    	display:hidden;will hide desktop logo in everything under 1024px
-   }*/
+   }
 
 @media screen and (min-width: 1024px){
 	/**** changing logos****/
