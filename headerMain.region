@@ -52,7 +52,11 @@
             {.end}
           {.end}
 
-          <div class="desktop-logo-wrapper"><img src="https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58cdc8326a49634f916434cb/1489881138291/final-desktop-logo.png" class="desktop-logo" /></div>
+
+          </div>
+
+          <div class="desktop-logo-wrapper">
+            <img src="https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58cdc8326a49634f916434cb/1489881138291/final-desktop-logo.png" class="desktop-logo" />
           </div>
 
 
