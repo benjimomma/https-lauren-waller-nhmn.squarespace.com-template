@@ -29,7 +29,7 @@
 	}
 }
 /**** changing logos****/
-   .desktop-logo{
+   .desktop-logo-wrapper{
    	display:none;/*will hide desktop logo in everything under 1024px*/
    }
 
