@@ -20,6 +20,8 @@
 
 	.logo-image img{
 		width:200px;
+		display:flex;
+		justify-content:center;
 	}
 }
 /**** changing logos****/
