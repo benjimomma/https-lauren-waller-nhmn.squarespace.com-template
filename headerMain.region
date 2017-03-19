@@ -49,6 +49,7 @@
               </div>
             {.or}
               <div class="site-title branding" data-content-field="site-title"><a href="/"><span class="site-title-text">{siteTitle}</span>{.section siteTagLine} <span class="site-tagline">{@}</span>{.end}</a></div>
+              <div class="desktop-logo"><img src="https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58cdc8326a49634f916434cb/1489881138291/final-desktop-logo.png"></div>
             {.end}
           {.end}
           </div>
