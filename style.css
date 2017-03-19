@@ -22,11 +22,11 @@
 		width:200px;
 	}
 
-	/*.logo-image{ using the flex container instead of the child
+	.flex-item{ /*using the flex container instead of the child*/
 		display:flex;
 		flex-direction:row;
 		justify-content:center;
-	}*/
+	}
 }
 /**** changing logos****/
    .desktop-logo{
