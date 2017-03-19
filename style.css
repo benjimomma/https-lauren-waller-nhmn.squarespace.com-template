@@ -15,18 +15,18 @@
 
 /***********MEDIA QUERIES ********/
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 633px){
 	/**** LOGO SIZE****/
 
 	.logo-image img{
 		width:200px;
 	}
 
-	.logo-image{ /*using the flex container instead of the child*/
+	/*.logo-image{ using the flex container instead of the child
 		display:flex;
 		flex-direction:row;
 		justify-content:center;
-	}
+	}*/
 }
 /**** changing logos****/
    .desktop-logo{
