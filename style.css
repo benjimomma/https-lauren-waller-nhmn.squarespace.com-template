@@ -46,3 +46,12 @@
 		justify-content:center;
 	}
 }
+
+
+
+@media screen and (max-width:1024px){
+	.logo-wrapper .flex-item{
+		webkit-flex:1 1 auto;
+		flex:1 1 auto;
+	}
+}
