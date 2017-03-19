@@ -22,7 +22,7 @@
 		width:200px;
 	}
 
-	.flex-item{ /*using the flex container instead of the child*/
+	.site-header{ /*using the flex container instead of the child*/
 		display:flex;
 		flex-direction:row;
 		justify-content:center;
