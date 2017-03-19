@@ -22,3 +22,20 @@
 		width:200px;
 	}
 }
+/**** changing logos****/
+   .desktop-logo{
+   	display:hidden;/*will hide desktop logo in everything under 1024px*/
+   }
+
+@media screen and (min-width: 1024px){
+	/**** changing logos****/
+
+	.logo-image img{
+		display:hidden; /*will hide mobile/tablet logo in every screen above 1024px*/
+	}
+
+	.desktop-logo{
+		display:flex;
+		justify-content:center;
+	}
+}
