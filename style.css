@@ -40,7 +40,7 @@
 		display:none; /*will hide mobile/tablet logo in every screen above 1024px*/
 	}
 
-	.desktop-logo{
+	.desktop-logo-wrapper{
 		display:flex;
 		flex-direction:row;
 		justify-content:center;
@@ -49,9 +49,3 @@
 
 
 
-@media screen and (max-width:1024px){
-	.logo-wrapper .flex-item{
-		webkit-flex:1 1 auto;
-		flex:1 1 auto;
-	}
-}
