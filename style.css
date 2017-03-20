@@ -13,6 +13,24 @@
   cursor:pointer;
 }
 
+
+/***********SUB NAV ********/
+.sub-nav {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.float--right{
+	float:right;
+}
+
+.font--proxima{
+	font-family: "proxima nova";
+	font-size: 12px;
+	
+}
+
 /***********MEDIA QUERIES ********/
 
 @media screen and (min-width: 633px){
