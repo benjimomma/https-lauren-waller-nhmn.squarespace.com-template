@@ -35,7 +35,7 @@
 
     <div id="site" class="site-container clearfix">
 
-      <div class="sqs-announcement-bar-dropzone header-announcement-wrapper responsive-padding--left responsive-padding--right" id="headerAnnouncementWrapper">
+      <div class="sqs-announcement-bar-dropzone header-announcement-wrapper responsive-padding--left" id="headerAnnouncementWrapper">
         <header id="header" class="site-header loading" role="banner">
           
 
