@@ -52,9 +52,6 @@
             {.end}
           {.end}
 
-
-          </div>
-
           <div class="desktop-logo-wrapper">
             <img src="https://static1.squarespace.com/static/58c5ab47893fc021adf7ff90/t/58cdc8326a49634f916434cb/1489881138291/final-desktop-logo.png" class="desktop-logo" />
           </div>
@@ -63,6 +60,11 @@
 
           <a href="https://lauren-waller-dbwb.squarespace.com/config/pages/58cc62bf3e00be5662b25acd"><p class="float--right font--proxima">Contact</p></a><!--Changed this link once launched-->
         </div>
+
+
+          </div>
+
+          
 
 
           {.if website.socialAccounts}
