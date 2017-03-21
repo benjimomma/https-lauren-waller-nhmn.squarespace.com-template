@@ -67,13 +67,13 @@
           
 
 
-          {.if website.socialAccounts}
+          <!-- {.if website.socialAccounts}
           {.section website}
            <nav class="header-special-social--shown-on-collapse sqs-template-social-icons sqs-svg-icon--list">
              {@|apply sqs-social-links}
            </nav>
           {.end}
-          {.end}
+          {.end} -->
 
           <div class="header-special flex-item">
             <div class="social-search-wrapper{.if showCart} cart-visible{.end}">
