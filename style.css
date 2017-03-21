@@ -28,7 +28,8 @@
 
 .font--proxima{
 	font-family: "proxima nova";
-	font-size: 12px;
+	font-size: 42px;
+	color:black;
 }
 
 /***********MEDIA QUERIES ********/
