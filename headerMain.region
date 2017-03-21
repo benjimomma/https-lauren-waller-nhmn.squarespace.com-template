@@ -95,7 +95,7 @@
                 </svg>
                </a>
               </div><!--
-             -->{.if showCart}<a href="{shoppingCart|cart-url}" class="{squarespace.cart-classes} custom-cart">
+             --><!-- {.if showCart}<a href="{shoppingCart|cart-url}" class="{squarespace.cart-classes} custom-cart">
               <div class="custom-cart-bag">
                 <svg class="Icon Icon--bag custom-cart-bag-icon" viewBox="0 0 34 38">
                   <use class="use--odd" xlink:href="/assets/ui-icons.svg#bag-icon--odd"></use>
@@ -103,9 +103,13 @@
                 </svg>
                 {shoppingCart|cart-quantity}
               </div>
-            </a>{.end}
+            </a>{.end} -->
           </div>
-         
+          <div class="sub-nav flex-content">
+          <a href="https://lauren-waller-dbwb.squarespace.com/config/pages/58cc62bf3e00be5662b25acd"><p class="float--right font--proxima">Top News</p></a><!--Changed this link once launched-->
+
+          <a href="https://lauren-waller-dbwb.squarespace.com/config/pages/58cc62bf3e00be5662b25acd"><p class="float--right font--proxima">Contact</p></a><!--Changed this link once launched-->
+        </div>
         </header>
       </div>
 
