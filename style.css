@@ -22,9 +22,17 @@
 	justify-content:flex-end;
 }
 
-/*.float--right{
-	float:right;
-}*/
+.flex-wrapper-logo{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+@media screen and(min-width: 1024px){
+	.float--right{
+		float:right;
+	}
+}
 
 .font--proxima{
 	font-family: "proxima nova";
