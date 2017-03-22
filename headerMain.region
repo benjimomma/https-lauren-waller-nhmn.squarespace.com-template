@@ -62,17 +62,21 @@
             </div>
 
           <div class="sub-nav flex-content">
-              <p class="float--right font--proxima">
+
+            <nav>
+              <li class="float--right font--proxima">
                 <a href="https://lauren-waller-dbwb.squarespace.com/config/pages/58cc62bf3e00be5662b25acd">
                   Top News
                 </a>
-              </p><!--Changed this link once launched-->
+              </li>
+              <!--Changed this link once launched-->
 
-              <p class="float--right font--proxima">
+              <li class="float--right font--proxima">
                 <a href="https://lauren-waller-dbwb.squarespace.com/config/pages/58cc62bf3e00be5662b25acd"> 
                 Contact
                 </a>
-              </p><!--Changed this link once launched-->
+              </li><!--Changed this link once launched-->
+            </nav>
           </div>
        </div>
 
