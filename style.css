@@ -55,6 +55,14 @@ li{
 	}
 }
 
+
+
+/***********MAIN CONTENT HOME PAGE********/
+
+#main{
+	padding-top: 2%;
+}
+
 /***********MEDIA QUERIES ********/
 
 @media screen and (min-width: 633px){
