@@ -45,8 +45,14 @@ li{
 
 .font--proxima{
 	font-family: "proxima nova";
-	font-size: 24px;
+	font-size: 14px;
 	color:black;
+}
+
+@media screen and (min-width:1024px){
+	.font--proxima{
+		font-size: 24px;
+	}
 }
 
 /***********MEDIA QUERIES ********/
