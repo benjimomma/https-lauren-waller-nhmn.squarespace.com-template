@@ -60,9 +60,9 @@
 
             </div>
 
-          <div class="sub-nav flex-content">
+         
 
-            <nav>
+            <nav class="sub-nav flex-content">
               <li class="float--right font--proxima">
                 <a href="https://lauren-waller-dbwb.squarespace.com/config/pages/58cc62bf3e00be5662b25acd">
                   Top News
@@ -76,7 +76,7 @@
                 </a>
               </li><!--Changed this link once launched-->
             </nav>
-          </div>
+          
        
 
           
