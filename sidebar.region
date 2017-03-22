@@ -19,7 +19,7 @@
 
         <!-- render page main content -->
         {squarespace.main-content}
-        <h1>Hello</h1>
+        
 
       </main>
 
