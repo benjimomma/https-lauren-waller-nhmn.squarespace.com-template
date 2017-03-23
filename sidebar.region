@@ -20,7 +20,12 @@
 
         <!-- render page main content -->
         {squarespace.main-content}
-        
+         
+         <div class="border-box aside">
+          <h1 class="aside-heading">This is where you will title your aside </h1>
+          <p class="aside-paragraph">Your paragraph info</p>
+          <span class="aside-span"> Anything else </span>
+        </div>
 
       </main>
 
