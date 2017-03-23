@@ -23,6 +23,19 @@
 
 // tweak: {"category": "Site", "type" : "checkbox", "title": "tweak-underline-body-links", "label" : "Underline Body Links", "active" : false, "target" : "body" }
 
+/* ASIDE*/
+
+// tweak: {"category": "Aside", "title": "aside-box-styles", "label": "Border Box", "type": "dropdown", "options":["solid", "dashed"], "default": "solid", "target": ".border-box"}
+.border-box{
+  border:solid;
+}
+
+// tweak: {"category": "Aside", "title": "tweak-border-width", "label": "Border Width", "type": "value", "min": 1, "max": 10, "step": 5}  
+@tweak-border-width:2px;
+
+// tweak: {"category": "Aside", "type":"color", "title":"border-color", "label":"Border Color"}
+@border-color: #e3e3e3;
+
 
 /* Navigation */
 
@@ -313,7 +326,7 @@
 
 
 // ===================================
-//    ASIDE Box BLOG
+//    Aside Box 
 // ===================================
 
 // tweak: {"category": "Aside Box", "title": "aside-box-styles", "label": "Border Box", "type": "dropdown", "options":["solid", "dashed"], "default": "solid", "target": ".border-box"}
